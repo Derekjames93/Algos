@@ -20,6 +20,7 @@ function sameFrequency(num1, num2){
             return false;
         }else{
             storedNumber[number] -= 1;
+            console.log(storedNumber)
         }
     }
     return true

@@ -21,7 +21,7 @@ function maxSubarraySum(arr,num){
     for (let i = num; i < arr.length; i++) {
         tempSum = tempSum - arr[i - num] + arr[i];
         //same as if statement to update max
-            //if(temp > max){max = temp}
+            // if(temp > max){max = temp}
             maxSum = Math.max(maxSum,tempSum);
             }
             return maxSum;

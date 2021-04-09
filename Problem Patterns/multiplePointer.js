@@ -39,6 +39,11 @@ function sumZero(arr){
     }
 }
 
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+}
+
 console.log(sumZero([-3,-2,-1,0,1,2,3])) //[-3,3]
 console.log(sumZero([-2,0,1,3])) //undefined
 console.log(sumZero([1,2,3])) //undefined
